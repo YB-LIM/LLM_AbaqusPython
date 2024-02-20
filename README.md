@@ -12,7 +12,7 @@ This script defines a 3D solid part using a rectangular profile extruded along t
 **ChatGPT3.5:**
 
 To create a 3D solid part with dimensions of 5x5x50 in Abaqus/CAE using Python scripting, you can utilize the Abaqus Python API. Below is a script that accomplishes this:
-<br><br>(Contents in the ChatGPT3.5.py)<br><br>
+<br><br>(Contents in the ChatGPT3p5.py)<br><br>
 This script creates a new model named "MyModel" and a new part named "MyPart" with a dimensionality of three-dimensional deformable body. It defines the vertices and cells (hexahedral elements) required to create a solid part with dimensions of 5x5x50. Finally, it generates the mesh and saves the model as a .cae file.
 
 Make sure you have Abaqus installed and properly set up with Python scripting capabilities to run this script.
@@ -34,7 +34,7 @@ This script also includes optional steps to seed the part for meshing and genera
 **GeminiPro1.0:**
 
 I'd be glad to help you with that! Here's a Python script that generates a 3D solid part with dimensions 5x5x50 in Abaqus/CAE:
-<br><br>(Contents in the GeminiPro1.0.py)<br><br>
+<br><br>(Contents in the GeminiPro1p0.py)<br><br>
 his script performs the following steps:
 
 1.Imports necessary modules: Imports the abaqus and mdb modules, which provide access to Abaqus/CAE functionality.<br>
