@@ -57,3 +57,7 @@ exec(open('generate_solid_part.py').read())
 This will execute the script and create the solid part in your model.
 
 Remember to adjust the script settings (e.g., part name, block dimensions) as needed for your specific requirements.
+
+# Results
+![Results](https://github.com/YB-LIM/LLM_AbaqusPython/assets/105615106/ec03052b-24f7-40bd-a6b9-96abf8ea457f)
+
