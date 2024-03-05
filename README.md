@@ -81,5 +81,5 @@ To run this script in Abaqus/CAE, follow these steps:
 After running the script, you should see a 3D solid part with dimensions 5x5x50 displayed in the viewport.
 
 # Results
-![Results](https://github.com/YB-LIM/LLM_AbaqusPython/assets/105615106/ec03052b-24f7-40bd-a6b9-96abf8ea457f)
+![Results](https://github.com/YB-LIM/LLM_AbaqusPython/assets/105615106/04718c39-c47d-4a48-945b-619d76f9270d)
 
