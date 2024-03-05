@@ -58,6 +58,28 @@ This will execute the script and create the solid part in your model.
 
 Remember to adjust the script settings (e.g., part name, block dimensions) as needed for your specific requirements.
 
+**Claude Opus:**
+
+To generate a 3D solid part with dimensions 5x5x50 in Abaqus/CAE using a Python script, you can use the following code:
+<br><br>(Contents in theClaudeOpus.py)<br><br>
+
+Here's a step-by-step explanation of the script:
+
+1. The necessary Abaqus modules are imported: abaqus, abaqusConstants, and __main__.
+2. A new model is created using mdb.Model() and given a name, in this case, '3D_Solid_Part'.
+3. A new sketch is created using model.ConstrainedSketch() with a specified name and sheet size.
+4. A rectangle is created in the sketch using sketch.rectangle(), with the bottom-left corner at (0.0, 0.0) and the top-right corner at (5.0, 5.0), representing the cross-section of the solid part.
+5. A 3D part is created using model.Part() with a specified name, dimensionality set to THREE_D, and type set to DEFORMABLE_BODY.
+6. The 3D part is created by extruding the sketch using part.BaseSolidExtrude(), with the sketch as the base and a depth of 50.0, representing the length of the solid part.
+7. Finally, a viewport is created using session.Viewport() to visualize the generated 3D solid part.
+To run this script in Abaqus/CAE, follow these steps:
+
+1. Open Abaqus/CAE.
+2. Go to File > Run Script.
+3. Navigate to the directory where you saved the script and select it.
+4. Click Open to run the script.
+After running the script, you should see a 3D solid part with dimensions 5x5x50 displayed in the viewport.
+
 # Results
 ![Results](https://github.com/YB-LIM/LLM_AbaqusPython/assets/105615106/ec03052b-24f7-40bd-a6b9-96abf8ea457f)
 
