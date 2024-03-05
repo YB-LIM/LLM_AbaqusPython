@@ -61,7 +61,7 @@ Remember to adjust the script settings (e.g., part name, block dimensions) as ne
 **Claude Opus:**
 
 To generate a 3D solid part with dimensions 5x5x50 in Abaqus/CAE using a Python script, you can use the following code:
-<br><br>(Contents in theClaudeOpus.py)<br><br>
+<br><br>(Contents in the ClaudeOpus.py)<br><br>
 
 Here's a step-by-step explanation of the script:
 
@@ -79,6 +79,22 @@ To run this script in Abaqus/CAE, follow these steps:
 3. Navigate to the directory where you saved the script and select it.
 4. Click Open to run the script.
 After running the script, you should see a 3D solid part with dimensions 5x5x50 displayed in the viewport.
+
+**Claude Opus:**
+
+Here's a Python script that can generate a 3D solid part with dimensions of 5x5x50 in Abaqus/CAE using the abaqus module:
+<br><br>(Contents in the ClaudeSonnet.py)<br><br>
+
+This script does the following:
+
+1. Imports the necessary modules from Abaqus.
+2. Creates a new model database with the name "Part3D".
+3. Creates a constrained sketch with a rectangle of dimensions 5x5.
+4. Extrudes the sketch to create a 3D solid part with a depth of 50 units.
+5. Saves the model as "Part3D.cae" in the current working directory.
+Note that you'll need to have the abaqus module installed and configured correctly to run this script. Additionally, make sure to adjust the path and filename ("Part3D.cae") as per your requirements.
+
+After running the script, you can open the "Part3D.cae" file in Abaqus/CAE to visualize and further work with the 3D solid part.
 
 # Results
 ![Results](https://github.com/YB-LIM/LLM_AbaqusPython/assets/105615106/04718c39-c47d-4a48-945b-619d76f9270d)
